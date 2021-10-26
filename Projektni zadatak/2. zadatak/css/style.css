@@ -1,0 +1,37 @@
+body, html {
+	font-family: 'Arial Unicode', sans-serif;
+	margin: 0;
+	font-size: 18px;
+}
+header {
+	display: block;
+	width: 100%;
+}
+.league-img {
+	background-image: url("../images/banner-league.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 650px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #176087;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px 18px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
