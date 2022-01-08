@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html lang = "hr">
+	<head>
+			<!--CSS-->
+				<link rel="stylesheet" href="css/style.css">
+			<!--CSS end-->
+		<title>League of Legends - Contact</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="Projektni zadatak iz web aplikacija">
+		<meta name="keywords" content="League, Legends, League of Legends, Summoner's rift, Contact">
+		<meta name="author" content="Denis Kuzminski">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	</head>
+<body>
+	<header>
+		<div class="league-img"></div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+			</ul>
+		</nav>	
+	</header>
+	<br>
+	<main>
+		<h1 style="text-align: center;">Contact us</h1>
+		<form id="contact_form" name="contact_form" method="post">
+			<div class="form-group">
+				<label for="fname">First Name *</label>
+				<input type="text" id="fname" name="firstname" placeholder="Your first name.." class="form-control" required>
+			</div>
+			<div class="form-group">
+				<label for="lname">Last Name *</label>
+				<input type="text" id="lname" name="lastname" placeholder="Your last name.." class="form-control" required>
+			</div>
+			<div class="form-group">	
+				<label for="email">Your E-mail *</label>
+				<input type="email" id="email" name="email" placeholder="Your e-mail.." class="form-control" required>
+			</div>
+			<div class="form-group">
+				<label for="country">Country</label>
+				<select id="country" name="country" class="form-control">
+				  <option value="">Please select</option>
+				  <option value="UK">United Kingdom</option>
+				  <option value="HR" selected>Croatia</option>
+				  <option value="DE">Germany</option>
+				  <option value="PL">Poland</option>
+				  <option value="CZ">Czech</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="message">Message</label>
+				<textarea id="message" name="message" placeholder="Write something..." class="form-control"></textarea>
+			</div>
+			<div class="form-group">
+				<input type="submit" class="btn btn-default" value="Send"> 
+				<input type="reset" class="btn btn-default" value="Reset">
+			</div>
+		</form>
+		<br>
+		<h2 style="text-align: center;">You can find us on this address</h2>
+		<iframe src="https://maps.google.com/maps?q=zagreb%20trg%20bana%20jela%C4%8Di%C4%87a&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</main>
+</body>
+<footer>
+	<p>&copy; Denis Kuzminski &amp; League of Legends. All rights reserved. <a href="https://github.com/Kuuzmma/Web-Aplikacije/tree/master/Projektni%20zadatak"><img src="./images/github.png" alt="Github" title="Github" style="width:30px; margin-top:0.4em"></a></p>
+</footer>
+</html>
